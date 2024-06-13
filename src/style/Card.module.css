@@ -1,7 +1,7 @@
 .card {
     width: 30rem;
     background-color: white;
-    border-radius: 1rem;    
+    border-radius: 1rem;        
 }
 
 .image {    
@@ -9,21 +9,43 @@
     border-top-right-radius: 1rem;
 }
 
-.postTitle {
-    padding: 1rem;
-}
 
 .txtContainer {
     padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction:column;
+    gap: 1rem;
 }
 
-.description {
-    padding: 1rem 0;
-}
 
 .button { 
     background-color: #daa521;
     padding: 0.5rem 1rem;
     color: white;
     width: fit-content;
+}
+
+.tag {
+    display: inline-block;
+    background-color: lightgreen;
+    color: white;
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.css {
+    background-color: lightblue;
+}
+
+.js {
+    background-color: lightcoral;
+}
+
+.php {
+    background-color: lightsalmon;
+}
+
+.unpublished {
+    filter: blur(0.5rem);
 }

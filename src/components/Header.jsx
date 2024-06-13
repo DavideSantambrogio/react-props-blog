@@ -1,9 +1,11 @@
 import styles from "../style/Header.module.css";
 
-export default () => {
+const Header = () => {
     return(
         <header className={styles.header}>
             <h1>Il mio blog</h1>
         </header>
     )
 }
+
+export default Header
