@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "../style/Main.module.css";
+import styles from "../style/CardList.module.css";
 import CardProps from "./CardProps";
 import { posts } from "../../data/data";
 
 const CardList = () => {
   return (
-    <main className={styles.container}>
+    <main className={styles.cardContainer} >
       {posts.map((post) => (
         <CardProps 
           key={post.id} 

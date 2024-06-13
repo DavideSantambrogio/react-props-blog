@@ -1,0 +1,13 @@
+.cardContainer {
+    background-color: #e5e5e5;
+    padding: 1rem 0  4rem;    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin-top: -1px;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+    width: 100%;
+}
+
